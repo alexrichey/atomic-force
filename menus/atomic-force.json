@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atomic-force",
+        "command": "atomic-force:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atomic-force",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atomic-force:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
