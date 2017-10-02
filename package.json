@@ -11,7 +11,8 @@
   "repository": "https://github.com/atom/atomic-force",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.0.0 <2.0.0",
+    "force-tools": "https://github.com/alexrichey/force-tools"
   },
   "dependencies": {
     "jquery": "^2.1.4"
